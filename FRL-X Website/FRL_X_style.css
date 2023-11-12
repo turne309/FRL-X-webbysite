@@ -1,0 +1,51 @@
+body {
+  background-image: url("assets/f123_Landing_bg.jpg");
+  background-color: #cccccc;
+  /* height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-color: #cccccc; */
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.navDiv > h3 {
+  margin-right: 10px;
+  background-color: blue;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navDiv {
+  display: inline;
+  align-items: center;
+}
+
+.navbarList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navEle {
+  float: left;
+}
+
+.navLogo {
+}
+
+.navEle a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navEle a:hover {
+  background-color: #111;
+}
